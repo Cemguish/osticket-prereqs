@@ -144,7 +144,7 @@ Go to worldwide web services > Application Development Features > Then Check the
 <img width="1801" height="991" alt="image" src="https://github.com/user-attachments/assets/e5a7538f-3991-4f0c-a8d1-ebe98fddb16d" />
   <p>
 Next, I will install PHP Manager for IIS from the osTicket-installation - File folder. Go to the osTicket installation file. 
-Locate PHP manager and install.
+
     
 </p>
 
@@ -152,10 +152,18 @@ Locate PHP manager and install.
 <img width="1804" height="1022" alt="VM 19" src="https://github.com/user-attachments/assets/31fe09ce-4a4b-455e-bdff-41c74f20d129" />
 </p>
 <p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
-</p><p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
-</p><p>
+  Locate PHP manager and install.
+<img width="1128" height="638" alt="VM 20" src="https://github.com/user-attachments/assets/dabeed48-f264-4258-9f49-66bdccaa9fac" />
+
+</p>
+
+<p>
+  After this is installed go back to the os Ticket folder on desktop. Locate the Rewrite Module and install.
+<img width="1162" height="655" alt="VM 22" src="https://github.com/user-attachments/assets/47a21b90-88db-4cda-b1eb-fbb97964f40f" />
+</p>
+
+<p>
+  Now, I will create a directory on the C drive called PHP.
 <img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
 </p><p>
 <img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
