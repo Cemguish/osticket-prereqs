@@ -18,7 +18,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (4 vCPU)
+- Windows 10</b> (22H2)
 
 <h2>List of Prerequisites</h2>
 
@@ -42,7 +42,23 @@ Login to Azure an create a new virtual machine.
 <img width="1889" height="775" alt="VM 1" src="https://github.com/user-attachments/assets/ff9d2fc3-d701-4838-a84c-598f10e5df05" />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  <p>
+Fill out the following information fields.
+    <ul>
+<li>Resource group</li>
+<li>Virtual machine name</li>
+<li>Region</li>
+<li>Image</li>
+<li>Size</li>
+<li>User, Password, and confirm Password</li>   
+    </ul>
+
+  
+    
+</p>
+<br />
+<img width="1230" height="960" alt="VM 2" src="https://github.com/user-attachments/assets/c98a5b5c-e233-4764-851b-9a0fcf1725dc" />
+
 </p>
 <br />
 <p>
