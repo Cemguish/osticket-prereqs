@@ -164,10 +164,16 @@ Next, I will install PHP Manager for IIS from the osTicket-installation - File f
 
 <p>
   Now, I will create a directory on the C drive called PHP.
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
-</p><p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
-</p><p>
+  Open a new file explorer click on the C.Drive right click >  New Folder> Name this file PHP.
+<img width="1362" height="769" alt="VM 23" src="https://github.com/user-attachments/assets/c842ea82-2bef-4842-83ac-0d5bd88d01a9" />
+</p>
+
+<p>
+  Next, go back to the osTicket file and select the zipped file> then right click and extract all. Browse to C drive locate PHP folder extract all then close.
+<img width="1697" height="814" alt="VM 24" src="https://github.com/user-attachments/assets/afe58b3a-a106-43f3-bc9a-8bf0d52c4ae5" />
+</p>
+
+<p>
 <img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
 </p><p>
 <img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
