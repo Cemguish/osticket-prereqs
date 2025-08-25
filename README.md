@@ -43,7 +43,7 @@ Login to Azure an create a new virtual machine.
 
 <p>
   <p>
-Fill out the following information fields.
+Fill in the following information fields.
     <ul>
 <li>Resource group</li>
 <li>Virtual machine name</li>
