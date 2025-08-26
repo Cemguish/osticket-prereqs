@@ -271,13 +271,16 @@ I will load the osTicket site. Go to the IIS manager window > click on site > De
   From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
   To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
 
-  Next, right click > Properties > security > Advanced > Disable inheritance >
+  Next, right click > Properties > security > Advanced > Disable inheritance > remove permissions. 
+  Now add new permissions > Select principle > type everyone then click ok> check full control box> click ok
 <img width="1466" height="941" alt="VM 45" src="https://github.com/user-attachments/assets/4c2c4e6c-a67b-4e37-939d-d19445c12cc0" />
 
 </p>
 
 <p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+  Advance Security window setting should say principal should say everyone Access full control now click apply and ok
+<img width="785" height="530" alt="VM 46" src="https://github.com/user-attachments/assets/27dd2fc5-92b8-428c-8fbe-c2e70135b661" />
+
 </p>
 
 <p>
