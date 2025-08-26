@@ -331,10 +331,3 @@ Click “Install Now!”
 <img width="1047" height="442" alt="VM 55" src="https://github.com/user-attachments/assets/901efd34-2e39-4dbf-9337-fcd8e7916a8d" />
 </p>
 
-<p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
-</p>
-
-<p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
-</p>
