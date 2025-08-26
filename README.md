@@ -278,13 +278,15 @@ I will load the osTicket site. Go to the IIS manager window > click on site > De
 </p>
 
 <p>
-  Advance Security window setting should say principal should say everyone Access full control now click apply and ok
+  Advance Security window setting should say principal should say everyone Access full control now click apply and ok > then ok to properties 
 <img width="785" height="530" alt="VM 46" src="https://github.com/user-attachments/assets/27dd2fc5-92b8-428c-8fbe-c2e70135b661" />
 
 </p>
 
 <p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+  Now go back to the osTicket website and click continue.
+  Fill in the appropriate fields.
+<img width="1393" height="917" alt="VM 47" src="https://github.com/user-attachments/assets/ac057557-df77-4dd6-81b4-eb0b05e77324" />
 </p>
 
 <p>
