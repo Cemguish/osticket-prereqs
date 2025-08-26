@@ -224,7 +224,11 @@ This will take you back to the register new PHP version window > click ok
 </p>
 
 <p>
+  Finally, I will install osTicket.
+  Go to the osTicket installation folder on desktop > open the folder navigate to osTicket file > extract all 
 <img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+  <img width="1704" height="802" alt="VM 37png" src="https://github.com/user-attachments/assets/415921b5-0dc2-4727-9345-129d8c81cd43" />
+
 </p>
 
 <p>
