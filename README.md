@@ -304,7 +304,10 @@ I will load the osTicket site. Go to the IIS manager window > click on site > De
 </p>
 
 <p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+  Create database called osTicket. Right click on unnamed > create new > Database> Name it osTicket.
+  You will now see osTicket in the database list. Now go back to the osTicket browser.
+<img width="1541" height="877" alt="image" src="https://github.com/user-attachments/assets/8cc289c6-10e5-4839-bc4c-e08696193210" />
+
 </p>
 
 <p>
