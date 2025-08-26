@@ -266,7 +266,11 @@ I will load the osTicket site. Go to the IIS manager window > click on site > De
 </p>
 
 <p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+  Next, I will rename ost-config.php. Go osTicket file > open file explorer navigate to the C.drive > inetpub folder > wwwroot > osTicket > include.
+  Scroll down to ost-sampleconfig.php file and rename it to ost-config.php
+  From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
+  To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+<img width="788" height="825" alt="image" src="https://github.com/user-attachments/assets/c29f0863-e9f0-468b-85fa-6c7c03776f1e" />
 </p>
 
 <p>
