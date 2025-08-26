@@ -218,7 +218,9 @@ This will take you back to the register new PHP version window > click ok
 </p>
 
 <p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+  Now I will reload IIS stop start the server
+<img width="1437" height="766" alt="image" src="https://github.com/user-attachments/assets/6f05ad29-5904-44d0-8df4-deab7dcac403" />
+
 </p>
 
 <p>
