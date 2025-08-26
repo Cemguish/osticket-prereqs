@@ -242,16 +242,22 @@ This will take you back to the register new PHP version window > click ok
 </p>
 
 <p>
-  I will load the osTicket site.
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+I will load the osTicket site. Go to the IIS manager window > click on site > Default Website > click osTicket folder > navigate to the right side of screen > 
+  Go to Browser folder Click on the Browse*:80 (http). The osTicket website should pop up. You will notice some of the features are not enabled.
+<img width="1838" height="1008" alt="VM 40" src="https://github.com/user-attachments/assets/46c69e35-bef9-41ac-9cf7-9dbb6400806f" />
 </p>
 
 <p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+  To enable go back to IIS Manager. Go to sites >  Default Website > osTicket folder > Double click PHP manager > Go to Enable or disable an extension.
+<img width="910" height="1036" alt="VM 41" src="https://github.com/user-attachments/assets/b07f9736-d5d8-47d2-b6a4-e4af16e96313" />
+
 </p>
 
 <p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+  Enable the following - Enable: php_imap.dll > Enable: php_intl.dll > Enable: php_opcache.dll
+  After enabling the following refresh the osTicket browser. 
+<img width="913" height="967" alt="VM 42" src="https://github.com/user-attachments/assets/738281d9-4e15-4e64-8018-dc492e38f753" />
+
 </p>
 
 <p>
