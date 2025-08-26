@@ -188,11 +188,103 @@ At MySQL Server Instance Configuration window create an input your password for 
 </p>
 
 <p>
+  Next I will configure PHP go to the start menu > open IIS as admin >
+<img width="1218" height="853" alt="VM 29" src="https://github.com/user-attachments/assets/0eb94e5b-70cf-42ec-91e7-bb9c67245a9f" />
+</p>
+
+<p>
+  Now open the PHP manager by double clicking the icon > Navigate to register new PHP version click on this. 
+<img width="1455" height="781" alt="VM 30" src="https://github.com/user-attachments/assets/1edfa096-5661-46bc-afba-a099a1eca9a3" />
+</p>
+
+<p>
+  At the register new PHP version pop up screen locate browser button with the three dots.  
+<img width="1433" height="770" alt="VM 32" src="https://github.com/user-attachments/assets/f7496c57-28f7-4d76-91f5-332ef5ec0cee" />
+
+</p>
+
+
+<p>
 <img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
-</p><p>
+</p>
+
+
+<p>
 <img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
-</p><p>
+</p>
+
+<p>
 <img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
-</p><p>
+</p>
+
+<p>
+<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+</p>
+
+<p>
+<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+</p>
+
+<p>
+<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+</p>
+
+<p>
+<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+</p>
+
+<p>
+<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+</p>
+
+<p>
+<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+</p>
+
+<p>
+<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+</p>
+
+<p>
+<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+</p>
+
+<p>
+<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+</p>
+
+<p>
+<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+</p>
+
+<p>
+<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+</p>
+
+<p>
+<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+</p>
+
+<p>
+<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+</p>
+
+<p>
+<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+</p>
+
+<p>
+<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+</p>
+
+<p>
+<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+</p>
+
+<p>
+<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+</p>
+
+<p>
 <img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
 </p>
