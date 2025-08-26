@@ -311,15 +311,24 @@ I will load the osTicket site. Go to the IIS manager window > click on site > De
 </p>
 
 <p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+  Continue Setting up osTicket in the browser
+MySQL Database: osTicket
+MySQL Username: root
+MySQL Password: root
+Click “Install Now!”
+<img width="1166" height="929" alt="VM 52" src="https://github.com/user-attachments/assets/7e21af9f-e459-4360-9d4c-a37341455d03" />
+
 </p>
 
 <p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+  Now osTicket should be completely installed.
+<img width="1089" height="763" alt="image" src="https://github.com/user-attachments/assets/79ac39c8-867f-4ca8-a48d-5394b24f704c" />
+
 </p>
 
 <p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+  Check to see if it is working login using the user name and paasword. Once logged in osTicket is working.
+<img width="1047" height="442" alt="VM 55" src="https://github.com/user-attachments/assets/901efd34-2e39-4dbf-9337-fcd8e7916a8d" />
 </p>
 
 <p>
