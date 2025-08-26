@@ -257,11 +257,12 @@ I will load the osTicket site. Go to the IIS manager window > click on site > De
   Enable the following - Enable: php_imap.dll > Enable: php_intl.dll > Enable: php_opcache.dll
   After enabling the following refresh the osTicket browser. 
 <img width="913" height="967" alt="VM 42" src="https://github.com/user-attachments/assets/738281d9-4e15-4e64-8018-dc492e38f753" />
-
 </p>
 
 <p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+  Now PHP IMAP Extension — Required for mail fetching and Intl Extension — recommended for improved localization is now enabled.
+<img width="928" height="1014" alt="VM 43" src="https://github.com/user-attachments/assets/179ddbe5-32d7-4fe9-8c9f-ba3cbdd5b221" />
+
 </p>
 
 <p>
