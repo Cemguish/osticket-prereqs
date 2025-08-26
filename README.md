@@ -232,14 +232,17 @@ This will take you back to the register new PHP version window > click ok
 <p>
     After the file extraction go to the osTicket folder > inside the folder there should be two folders scripts and uploads.
 <img width="1693" height="795" alt="VM 38" src="https://github.com/user-attachments/assets/e360b81e-0b4e-41c5-bd47-be722ce0b804" />
+</p>
 
+
+<p>
+  Next, I will open file explorer navigate to the C.drive > inetpub folder > wwwroot folder > Copy upload folder to wwwroot folder.
+  Rename upload folder to osTicket. Then restart/Reload the server again.
+<img width="1475" height="821" alt="VM 39" src="https://github.com/user-attachments/assets/ae889772-c91a-455c-976d-4a077bb345c8" />
 </p>
 
 <p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
-</p>
-
-<p>
+  I will load the osTicket site.
 <img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
 </p>
 
