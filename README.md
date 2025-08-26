@@ -270,7 +270,10 @@ I will load the osTicket site. Go to the IIS manager window > click on site > De
   Scroll down to ost-sampleconfig.php file and rename it to ost-config.php
   From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
   To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-<img width="788" height="825" alt="image" src="https://github.com/user-attachments/assets/c29f0863-e9f0-468b-85fa-6c7c03776f1e" />
+
+  Next, right click > Properties > security > Advanced > Disable inheritance >
+<img width="1466" height="941" alt="VM 45" src="https://github.com/user-attachments/assets/4c2c4e6c-a67b-4e37-939d-d19445c12cc0" />
+
 </p>
 
 <p>
