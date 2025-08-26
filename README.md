@@ -285,12 +285,15 @@ I will load the osTicket site. Go to the IIS manager window > click on site > De
 
 <p>
   Now go back to the osTicket website and click continue.
-  Fill in the appropriate fields. 
+  Fill in the appropriate fields. Before clicking the install Now create a database connection. 
+  Go back to the osTicket installation file folder > Navigate to HeidiSQL and install 
 <img width="1393" height="917" alt="VM 47" src="https://github.com/user-attachments/assets/ac057557-df77-4dd6-81b4-eb0b05e77324" />
 </p>
 
 <p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+   Go back to the osTicket installation file folder > Navigate to HeidiSQL and install 
+<img width="1198" height="846" alt="VM 48" src="https://github.com/user-attachments/assets/54379fdb-b084-40ca-b49e-55847d7f26b6" />
+
 </p>
 
 <p>
