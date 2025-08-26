@@ -181,6 +181,10 @@ Next, I will install PHP Manager for IIS from the osTicket-installation - File f
 <p>
   Now, I will install MySQL. Select Standard > Root password will be root for example after installation hit finish.
 <img width="1135" height="644" alt="VM 26" src="https://github.com/user-attachments/assets/00d58f1b-ee45-4d19-bfda-8b9b6d60e0f0" />
+  Make sure to select the standard configuration the click next.
+  <img width="507" height="392" alt="VM 28" src="https://github.com/user-attachments/assets/74e5298b-cbd9-42f3-8b25-35a1874350a9" />
+At MySQL Server Instance Configuration window create an input your password for both fields then next.
+  <img width="747" height="573" alt="VM 27" src="https://github.com/user-attachments/assets/6895a7bc-314e-436b-98f9-c3bd00cd43b7" />
 </p>
 
 <p>
