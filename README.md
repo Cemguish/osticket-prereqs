@@ -297,7 +297,10 @@ I will load the osTicket site. Go to the IIS manager window > click on site > De
 </p>
 
 <p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+  Now I will make a connection to the database for osTicket in HeidiSQL. 
+  Click new user and password is root. Click open.
+<img width="736" height="498" alt="VM 49" src="https://github.com/user-attachments/assets/fa9f4a84-3543-4e20-972b-5641eb611945" />
+<img width="955" height="612" alt="VM 50" src="https://github.com/user-attachments/assets/5748cdda-bd5b-457c-9bb6-6964d2a6e3bf" />
 </p>
 
 <p>
