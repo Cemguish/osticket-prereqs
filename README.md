@@ -198,14 +198,16 @@ At MySQL Server Instance Configuration window create an input your password for 
 </p>
 
 <p>
-  At the register new PHP version pop up screen locate browser button with the three dots.  
+  At the register new PHP version pop up screen locate browser button with the three dots. Go to the Cdrive when you PHP file is located > open the file locate the php-cgi > icon double click to install 
 <img width="1433" height="770" alt="VM 32" src="https://github.com/user-attachments/assets/f7496c57-28f7-4d76-91f5-332ef5ec0cee" />
 
 </p>
 
 
 <p>
-<img width="958" height="938" alt="VM 12" src="https://github.com/user-attachments/assets/4e93c0e3-8504-449d-97a1-ffb11a606c5d" />
+This will take you back to the register new PHP version window > click ok
+<img width="1430" height="767" alt="VM 34" src="https://github.com/user-attachments/assets/f04527aa-ac28-44fa-99b8-54a9ccc6e5c8" />
+
 </p>
 
 
