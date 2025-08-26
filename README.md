@@ -285,7 +285,7 @@ I will load the osTicket site. Go to the IIS manager window > click on site > De
 
 <p>
   Now go back to the osTicket website and click continue.
-  Fill in the appropriate fields.
+  Fill in the appropriate fields. Input user name and password that would be the same as the user name and password you create for the virtual machine login.
 <img width="1393" height="917" alt="VM 47" src="https://github.com/user-attachments/assets/ac057557-df77-4dd6-81b4-eb0b05e77324" />
 </p>
 
