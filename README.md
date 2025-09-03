@@ -101,60 +101,44 @@ Login to Azure an create a new virtual machine.
 
 
 <p>
-  <p>When the folder is downloaded go to your downloads folder. 
-Drag folder to desktop of virtual machine. </p>
+   <b>When the folder is downloaded go to your downloads folder.</b>  
+<li>Drag folder to desktop of virtual machine.</li>
+    <li>Right click extract all make sure it is being extracted to the desktop.</li> 
+    <li>After extracting all to desktop IIS needs to be installed in windows with CGI.</li><br>
 <img width="1909" height="1005" alt="VM 14" src="https://github.com/user-attachments/assets/4ea60cb6-1a31-41ce-940d-f2dcd90bfaa5" />
-
-  <p>
-Right click extract all make sure it is being extracted to the desktop. After extracting all to desktop IIS needs to be installed in windows with CGI
-</p>
-
-<p>
 <img width="1914" height="1032" alt="VM 15" src="https://github.com/user-attachments/assets/8f26a705-0a1b-4837-bb44-c3ceeda95554" />
-
+</p><br />
   <p>
-Now I will enable IIS in windows. Go to start > Control panel > Programs and Features > Turn windows features on or off then click on it.
-</p>
-
-<p>
+ <b>Now I will enable IIS in windows.</b>  
+    <li>Go to start</li>  
+    <li>Control panel</li>  
+    <li>Programs and Features</li>  
+    <li>Turn windows features on or off then click on it.</li>
+    <li>Now, select Internet Information Services in the drop down.</li> 
+    <li>Check this box then expand it.</li> 
+    <li>Next, CGI will be installed.</li> 
+<li>Go to worldwide web services > Application Development Features > Check the CGI box.</li> 
+    <li>Then click ok.</li><br>
 <img width="1231" height="948" alt="VM 16" src="https://github.com/user-attachments/assets/610b481d-bc19-48df-9261-0b3525d2988e" />
-  <p>
-Now, select Internet Information Services in the drop down. Check this box then expand it. Next, CGI will be installed. 
-Go to worldwide web services > Application Development Features > Then Check the CGI box. Then click ok.
-</p>
-
-<p>
 <img width="1801" height="991" alt="image" src="https://github.com/user-attachments/assets/e5a7538f-3991-4f0c-a8d1-ebe98fddb16d" />
+</p><br />
+
   <p>
-Next, I will install PHP Manager for IIS from the osTicket-installation - File folder. Go to the osTicket installation file. 
-
-    
-</p>
-
-<p>
+<b>Next, I will install PHP Manager for IIS from the osTicket-installation - File folder.</b>  
+    <li>Go to the osTicket installation file.</li> 
+ <li>Locate PHP manager and install.</li>
+      <li>After this is installed go back to the os Ticket folder on desktop.</li> 
+    <li>Locate the Rewrite Module and install.</li>
+  <li>Now, I will create a directory on the C drive called PHP.</li>
+  <li>Open a new file explorer click on the C.Drive right click > New Folder> Name this file PHP.</li>
+      <li>Next, go back to the osTicket file and select the zipped file> then right click and extract all.</li> 
+    <li>Browse to C drive locate PHP folder extract all then close.</li><br>
 <img width="1804" height="1022" alt="VM 19" src="https://github.com/user-attachments/assets/31fe09ce-4a4b-455e-bdff-41c74f20d129" />
-</p>
-<p>
-  Locate PHP manager and install.
 <img width="1128" height="638" alt="VM 20" src="https://github.com/user-attachments/assets/dabeed48-f264-4258-9f49-66bdccaa9fac" />
-
-</p>
-
-<p>
-  After this is installed go back to the os Ticket folder on desktop. Locate the Rewrite Module and install.
 <img width="1162" height="655" alt="VM 22" src="https://github.com/user-attachments/assets/47a21b90-88db-4cda-b1eb-fbb97964f40f" />
-</p>
-
-<p>
-  Now, I will create a directory on the C drive called PHP.
-  Open a new file explorer click on the C.Drive right click >  New Folder> Name this file PHP.
 <img width="1362" height="769" alt="VM 23" src="https://github.com/user-attachments/assets/c842ea82-2bef-4842-83ac-0d5bd88d01a9" />
-</p>
-
-<p>
-  Next, go back to the osTicket file and select the zipped file> then right click and extract all. Browse to C drive locate PHP folder extract all then close.
 <img width="1697" height="814" alt="VM 24" src="https://github.com/user-attachments/assets/afe58b3a-a106-43f3-bc9a-8bf0d52c4ae5" />
-</p>
+</p><br />
 
 <p>
   Go back to the osTicket file. Now I will be installing VC redist.
