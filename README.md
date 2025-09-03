@@ -50,34 +50,31 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 </p>
 <p>
 Login to Azure an create a new virtual machine.
-</p>
-<br />
+   <b>Creating a Virtual machine.</b>  
+  <li>Click + Create → Azure virtual machine.</li>
+<li>Fill in the Basics tab:</li>
+<li>Subscription: Select your subscription ( Azure subscription1.)</li>
+<li>Resource group: Pick your existing one (e.g., MyResourceGroup) (osTicket).</li>
+<li>VM name: Choose a name (e.g., MyVM01) (osTicket-vm).</li>
+<li>Region: Same region as your VNet.(East US 2)</li>
+<li>Image: Choose the OS (Windows Server, Ubuntu, etc.)(Windows 10 Pro,Version 22H2 - x64 Gen2).</li>
+<li>Size: Pick a VM size (e.g., B1s for free-tier)(Standard_D2s_v3 -2 vcpus,8 GiB memory).</li>
+<li>Authentication type: Choose Password or SSH key.(osTicketPassword1!)</li>
+<li>Username/Password or SSH Key: Set login credentials.(labuser)</li> 
+<li>Check Licensing box </li> 
+<li>Inbound ports: Select what to allow (e.g., RDP for Windows, SSH for Linux).</li>
+<li>Go to Networking:</li>
+<li>Select your Virtual network (e.g., MyVNet01)(vnet-eastus2(osTicket).</li>
+<li>Choose an existing Subnet (e.g., MySubnet01)(snet-eastus2-1) .</li>
+<li>Leave defaults for Disks and Management (or customize if needed).</li>
+<li>Click Review + Create → Create.</li>
+<li>After deployment, you can connect via SSH (Linux) or RDP (Windows).</li><br>
+</ul>
 <img width="1889" height="775" alt="VM 1" src="https://github.com/user-attachments/assets/ff9d2fc3-d701-4838-a84c-598f10e5df05" />
-
-<p>
-  <p>
-Fill in the following information fields.
-    <ul>
-<li>Resource group</li>
-<li>Virtual machine name</li>
-<li>Region</li>
-<li>Image</li>
-<li>Size</li>
-<li>User, Password, and confirm Password</li>   
-    </ul>
-  
-</p>
-<br />
 <img width="1222" height="952" alt="VM 3" src="https://github.com/user-attachments/assets/32895591-6d1e-48d9-ae02-66872d50d53c" />
+</p>
+<br />
 
-After filling in the information fields check the Licensing box. Then click next Disk > next Networking page. Locate the Virtual network there should be a generated network name.
-Then, review and create click again to deploy virtual machine.
-</p>
-<br />
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
 
 <p>
 <img width="1236" height="968" alt="VM 4" src="https://github.com/user-attachments/assets/c98795c6-6699-4dd5-b6e1-3c1d9de278c0" />
