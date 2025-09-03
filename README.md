@@ -29,7 +29,20 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - MySQL
 - HeidiSQL
 
-<h2>Installation Steps</h2>
+<h2>Installation Steps for Azure</h2>
+<p>
+  <ul>
+  <li>Step 1: Go to the Azure Website https://azure.microsoft.com</li>
+  <li>Step 2: Click Start free</li>
+  <li> Step 3: Sign in / Create a Microsoft Account</li>
+  <li>Step 4: Verify Your Identity</li>
+  <li>Step 5: Accept Terms & Conditions</li>
+  <li>Step 6: Start Using Azure</li>
+    </ul>
+    <img width="1909" height="1001" alt="image" src="https://github.com/user-attachments/assets/cd545f5d-90e3-4ae4-88ec-01ce45b03b5b" />
+</p>
+<br>
+
 
 <p>
 <img width="1601" height="927" alt="Capture" src="https://github.com/user-attachments/assets/6ce12c99-9799-46c8-b734-ae74cbfee1ab" />
