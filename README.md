@@ -125,61 +125,60 @@ Login to Azure an create a new virtual machine.
 
   <p>
 <b>Next, I will install PHP Manager for IIS from the osTicket-installation - File folder.</b>  
-    <li>Go to the osTicket installation file.</li> 
- <li>Locate PHP manager and install.</li>
-      <li>After this is installed go back to the os Ticket folder on desktop.</li> 
-    <li>Locate the Rewrite Module and install.</li>
-  <li>Now, I will create a directory on the C drive called PHP.</li>
-  <li>Open a new file explorer click on the C.Drive right click > New Folder> Name this file PHP.</li>
-      <li>Next, go back to the osTicket file and select the zipped file> then right click and extract all.</li> 
-    <li>Browse to C drive locate PHP folder extract all then close.</li><br>
+<li>Go to the osTicket installation file.</li> 
+<li>Locate PHP manager and install.</li>
+<li>After this is installed go back to the os Ticket folder on desktop.</li> 
+<li>Locate the Rewrite Module and install.</li>
+<li>Now, I will create a directory on the C drive called PHP.</li>
+<li>Open a new file explorer click on the C.Drive right click > New Folder> Name this file PHP.</li>
+<li>Next, go back to the osTicket file and select the zipped file> then right click and extract all.</li> 
+<li>Browse to C drive locate PHP folder extract all then close.</li><br>
 <img width="1804" height="1022" alt="VM 19" src="https://github.com/user-attachments/assets/31fe09ce-4a4b-455e-bdff-41c74f20d129" />
 <img width="1128" height="638" alt="VM 20" src="https://github.com/user-attachments/assets/dabeed48-f264-4258-9f49-66bdccaa9fac" />
 <img width="1162" height="655" alt="VM 22" src="https://github.com/user-attachments/assets/47a21b90-88db-4cda-b1eb-fbb97964f40f" />
 <img width="1362" height="769" alt="VM 23" src="https://github.com/user-attachments/assets/c842ea82-2bef-4842-83ac-0d5bd88d01a9" />
 <img width="1697" height="814" alt="VM 24" src="https://github.com/user-attachments/assets/afe58b3a-a106-43f3-bc9a-8bf0d52c4ae5" />
-</p><br />
+</p><br>
 
 <p>
-  Go back to the osTicket file. Now I will be installing VC redist.
+  <b>Go back to the osTicket file.</b>  
+  <li>Now I will be installing VC redist.</li><br> 
 <img width="1140" height="648" alt="VM 25" src="https://github.com/user-attachments/assets/a83e028d-9fdf-434a-b5ac-9e2f02995dec" />
 </p>
 
 <p>
-  Now, I will install MySQL. Select Standard > Root password will be root for example after installation hit finish.
+    <b>Now, I will install MySQL.</b>   
+  <li>Select Standard > Root password will be root for example after installation hit finish.</li> 
+    <li>Make sure to select the standard configuration the click next.</li> 
+  <li>At MySQL Server Instance Configuration window create an input your password for both fields then next.</li><br> 
 <img width="1135" height="644" alt="VM 26" src="https://github.com/user-attachments/assets/00d58f1b-ee45-4d19-bfda-8b9b6d60e0f0" />
-  Make sure to select the standard configuration the click next.
   <img width="507" height="392" alt="VM 28" src="https://github.com/user-attachments/assets/74e5298b-cbd9-42f3-8b25-35a1874350a9" />
-At MySQL Server Instance Configuration window create an input your password for both fields then next.
   <img width="747" height="573" alt="VM 27" src="https://github.com/user-attachments/assets/6895a7bc-314e-436b-98f9-c3bd00cd43b7" />
 </p>
 
 <p>
-  Next I will configure PHP go to the start menu > open IIS as admin >
+     <b>Next, I will configure PHP</b> 
+    <li>Go to the start menu</li>  
+    <li>Open IIS as admin</li> 
+    <li>Now open the PHP manager by double clicking the icon</li>   
+    <li>Navigate to register new PHP version click on this.</li> 
+    <li>At the register new PHP version pop up screen locate browser button with the three dots.</li>  
+    <li>Go to the Cdrive when you PHP file is located.</li>  
+    <li>Open the file locate the php-cgi.</li>  
+    <li>Icon double click to install.</li>  
+    <li>This will take you back to the register new PHP version window.</li>  
+    <li>click ok.</li><br>  
 <img width="1218" height="853" alt="VM 29" src="https://github.com/user-attachments/assets/0eb94e5b-70cf-42ec-91e7-bb9c67245a9f" />
-</p>
-
-<p>
-  Now open the PHP manager by double clicking the icon > Navigate to register new PHP version click on this. 
 <img width="1455" height="781" alt="VM 30" src="https://github.com/user-attachments/assets/1edfa096-5661-46bc-afba-a099a1eca9a3" />
-</p>
-
-<p>
-  At the register new PHP version pop up screen locate browser button with the three dots. Go to the Cdrive when you PHP file is located > open the file locate the php-cgi > icon double click to install 
 <img width="1433" height="770" alt="VM 32" src="https://github.com/user-attachments/assets/f7496c57-28f7-4d76-91f5-332ef5ec0cee" />
 <img width="1494" height="849" alt="VM 33" src="https://github.com/user-attachments/assets/e2d15514-4c1a-465e-8b8e-086538ace231" />
-</p>
-
-
-<p>
-This will take you back to the register new PHP version window > click ok 
 <img width="1430" height="767" alt="VM 34" src="https://github.com/user-attachments/assets/f04527aa-ac28-44fa-99b8-54a9ccc6e5c8" />
 
 </p>
 
 
 <p>
-  PHP Should be registered at this point your screen should look like the following slide.
+  PHP should be registered at this point your screen should look like the following slide.
 <img width="1435" height="764" alt="VM 35" src="https://github.com/user-attachments/assets/d67ae88f-50dd-4a90-929b-111aeeb9d40d" />
 
 </p>
