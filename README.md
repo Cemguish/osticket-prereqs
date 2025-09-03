@@ -72,60 +72,33 @@ Login to Azure an create a new virtual machine.
 </ul>
 <img width="1889" height="775" alt="VM 1" src="https://github.com/user-attachments/assets/ff9d2fc3-d701-4838-a84c-598f10e5df05" />
 <img width="1222" height="952" alt="VM 3" src="https://github.com/user-attachments/assets/32895591-6d1e-48d9-ae02-66872d50d53c" />
-</p>
-<br />
-
-
-<p>
 <img width="1236" height="968" alt="VM 4" src="https://github.com/user-attachments/assets/c98795c6-6699-4dd5-b6e1-3c1d9de278c0" />
 </p>
-<p>
-At this point the deployment should be completed. Next login to the virtual machine and locate and copy the IP address.
-</p>
-<br />
+
+
 
 <p>
+ <b>Next login to the virtual machine and locate and copy the IP address.</b> 
+<li>Copy the IP address and open remote desktop</li>
+  <li>In the computer field paste the public IP address of the virtual machine.</li> 
+    <li>Next, navigate to the Show options button and click to open for more options.</li>
+  <li>You should now see more options. In the user name field type your user name and click connect.</li>
+  <li>Then enter your password and click ok.</li><br>
 <img width="1608" height="961" alt="VM 5" src="https://github.com/user-attachments/assets/0f22e591-1c55-44c8-a58f-dd0825ff596e" />
-
-  <p>
-Copy the IP address and open remote desktop 
-</p>
-</p>
-<p>
 <img width="1892" height="609" alt="image" src="https://github.com/user-attachments/assets/9b905913-5271-4b72-aaa0-e0a9641a3f00" />
-
-  <p>
-In the computer field paste the public IP address of the virtual machine. Next, navigate to the Show options button and click to open for more options.
-</p>
-</p>
-<p>
-<img width="420" height="262" alt="VM 8" src="https://github.com/user-attachments/assets/36c2e086-3869-4df2-9e58-88ea7520f9f3" /><br />
-    <p>
-You should now see more options. In the user name field type your user name and click connect.
-</p>
-<img width="411" height="498" alt="VM 9" src="https://github.com/user-attachments/assets/c5d14dc0-ab16-467c-8afa-33298a3208be" /><br />
-    <p>
-Then enter your password and click ok
-</p>
-
-<p>
-<img width="465" height="341" alt="VM 10" src="https://github.com/user-attachments/assets/00d7007f-2153-47db-9bf5-56b4afabd0e0" /><br />
+<img width="420" height="262" alt="VM 8" src="https://github.com/user-attachments/assets/36c2e086-3869-4df2-9e58-88ea7520f9f3" />
+<img width="411" height="498" alt="VM 9" src="https://github.com/user-attachments/assets/c5d14dc0-ab16-467c-8afa-33298a3208be" />
+<img width="465" height="341" alt="VM 10" src="https://github.com/user-attachments/assets/00d7007f-2153-47db-9bf5-56b4afabd0e0" />
 </p><br />
   
 
  <p>
-   Now you should be logged on to the new virtual machine.
+    <b>Now you should be logged on to the new virtual machine.</b> 
+   <li>Open the browser in virtual machine and paste the link for osTicket folder hit enter.</li><br> 
 <img width="1904" height="1039" alt="VM 11" src="https://github.com/user-attachments/assets/3fb742aa-bb40-42be-8bbe-e87d23b5e0f8" />
-</p>
-
-  <p>
-Open the browser in virtual machine and paste the link for osTicket folder hit enter. 
-</p>
-
-  <p>
 <img width="1291" height="754" alt="VM 13" src="https://github.com/user-attachments/assets/82933f4e-b0ff-497b-ade9-cc02645b9f5b" />
-
 </p><br />
+
 
 <p>
   <p>When the folder is downloaded go to your downloads folder. 
