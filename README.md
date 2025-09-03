@@ -178,122 +178,113 @@ Login to Azure an create a new virtual machine.
 
 
 <p>
-  PHP should be registered at this point your screen should look like the following slide.
+    <b>PHP should be registered at this point your screen should look like the following slide.</b> 
+     <li>Now I will reload IIS stop start the server.</li><br>
 <img width="1435" height="764" alt="VM 35" src="https://github.com/user-attachments/assets/d67ae88f-50dd-4a90-929b-111aeeb9d40d" />
-
-</p>
-
-<p>
-  Now I will reload IIS stop start the server
 <img width="1437" height="766" alt="image" src="https://github.com/user-attachments/assets/6f05ad29-5904-44d0-8df4-deab7dcac403" />
-
 </p>
 
 <p>
-  Finally, I will install osTicket.
-  Go to the osTicket installation folder on desktop > open the folder navigate to osTicket file > extract all
-  <img width="1704" height="802" alt="VM 37png" src="https://github.com/user-attachments/assets/415921b5-0dc2-4727-9345-129d8c81cd43" />
-</p>
-
-<p>
-    After the file extraction go to the osTicket folder > inside the folder there should be two folders scripts and uploads.
+   <b>Finally, I will install osTicket.</b> 
+     <li>Go to the osTicket installation folder on desktop.</li> 
+     <li>Open the folder navigate to osTicket file.</li> 
+     <li>Extract all.</li>
+     <li>After the file extraction go to the osTicket folder.</li>
+     <li>Inside the folder there should be two folders scripts and uploads.</li>
+     <li>Next, I will open file explorer navigate to the C.drive > inetpub folder > wwwroot folder</li>  
+     <li>Copy upload folder to wwwroot folder.</li>
+     <li>Rename upload folder to osTicket.</li> 
+     <li>Then restart/Reload the server again.</li><br> 
+<img width="1704" height="802" alt="VM 37png" src="https://github.com/user-attachments/assets/415921b5-0dc2-4727-9345-129d8c81cd43" />  
 <img width="1693" height="795" alt="VM 38" src="https://github.com/user-attachments/assets/e360b81e-0b4e-41c5-bd47-be722ce0b804" />
-</p>
-
-
-<p>
-  Next, I will open file explorer navigate to the C.drive > inetpub folder > wwwroot folder > Copy upload folder to wwwroot folder.
-  Rename upload folder to osTicket. Then restart/Reload the server again.
 <img width="1475" height="821" alt="VM 39" src="https://github.com/user-attachments/assets/ae889772-c91a-455c-976d-4a077bb345c8" />
 </p>
 
 <p>
-I will load the osTicket site. Go to the IIS manager window > click on site > Default Website > click osTicket folder > navigate to the right side of screen > 
-  Go to Browser folder Click on the Browse*:80 (http). The osTicket website should pop up. You will notice some of the features are not enabled.
+<b>I will load the osTicket site.</b> 
+  <li>Go to the IIS manager window</li>  
+  <li>click on site</li>  
+  <li>Default Website</li>  
+  <li>Click osTicket folder</li>   
+  <li>Navigate to the right side of screen</li>   
+  <li>Go to Browser folder</li>  
+  <li>Click on the Browse*:80 (http).</li>  
+  <li>The osTicket website should pop up.</li>  
+  <li>You will notice some of the features are not enabled.</li><br> 
 <img width="1838" height="1008" alt="VM 40" src="https://github.com/user-attachments/assets/46c69e35-bef9-41ac-9cf7-9dbb6400806f" />
 </p>
 
 <p>
-  To enable go back to IIS Manager. Go to sites >  Default Website > osTicket folder > Double click PHP manager > Go to Enable or disable an extension.
+  <b>To enable go back to IIS Manager.</b>
+   <li>Go to sites</li>    
+   <li>Default Website</li>   
+   <li>osTicket folder</li>   
+   <li>Double click PHP manager</li>  
+   <li>Go to Enable or disable an extension.</li>
+     <li>Enable the following - Enable: php_imap.dll</li>  
+     <li>Enable: php_intl.dll</li>  
+     <li>Enable: php_opcache.dll</li> 
+     <li>After enabling the following refresh the osTicket browser.</li>  
+     <li>Now PHP IMAP Extension</li><br>  
+     <li>Required for mail fetching and Intl Extension — recommended for improved localization is now enabled.</li><br> 
 <img width="910" height="1036" alt="VM 41" src="https://github.com/user-attachments/assets/b07f9736-d5d8-47d2-b6a4-e4af16e96313" />
-
-</p>
-
-<p>
-  Enable the following - Enable: php_imap.dll > Enable: php_intl.dll > Enable: php_opcache.dll
-  After enabling the following refresh the osTicket browser. 
 <img width="913" height="967" alt="VM 42" src="https://github.com/user-attachments/assets/738281d9-4e15-4e64-8018-dc492e38f753" />
-</p>
-
-<p>
-  Now PHP IMAP Extension — Required for mail fetching and Intl Extension — recommended for improved localization is now enabled.
 <img width="928" height="1014" alt="VM 43" src="https://github.com/user-attachments/assets/179ddbe5-32d7-4fe9-8c9f-ba3cbdd5b221" />
-
 </p>
 
 <p>
-  Next, I will rename ost-config.php. Go osTicket file > open file explorer navigate to the C.drive > inetpub folder > wwwroot > osTicket > include.
-  Scroll down to ost-sampleconfig.php file and rename it to ost-config.php
-  From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php
-  To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
-
-  Next, right click > Properties > security > Advanced > Disable inheritance > remove permissions. 
-  Now add new permissions > Select principle > type everyone then click ok> check full control box> click ok
+    <b>Next, I will rename ost-config.php.</b> 
+  <li>Go osTicket file</li>  
+  <li>Open file explorer navigate to the C.drive.</li> 
+  <li>inetpub folder > wwwroot > osTicket > include.</li> 
+  <li>Scroll down to ost-sampleconfig.php file and rename it to ost-config.php</li> 
+  <li>From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php</li> 
+  <li>To: C:\inetpub\wwwroot\osTicket\include\ost-config.php</li> 
+  <li>Next, right click > Properties > security > Advanced > Disable inheritance > remove permissions.</li>  
+  <li>Now add new permissions > Select principle > type everyone then click ok> check full control box> click ok</li> 
+  <li>Advance Security window setting should say principal should say everyone Access full control.</li>  
+  <li>click apply and ok</li>  
+  <li>ok to properties</li><br>   
 <img width="1466" height="941" alt="VM 45" src="https://github.com/user-attachments/assets/4c2c4e6c-a67b-4e37-939d-d19445c12cc0" />
-
-</p>
-
-<p>
-  Advance Security window setting should say principal should say everyone Access full control now click apply and ok > then ok to properties 
 <img width="785" height="530" alt="VM 46" src="https://github.com/user-attachments/assets/27dd2fc5-92b8-428c-8fbe-c2e70135b661" />
-
 </p>
 
 <p>
-  Now go back to the osTicket website and click continue.
-  Fill in the appropriate fields. Before clicking the install Now create a database connection. 
-  Go back to the osTicket installation file folder > Navigate to HeidiSQL and install 
+  <b>Now go back to the osTicket website and click continue.</b> 
+  <li>Fill in the appropriate fields. Before clicking the install Now create a database connection.</li> 
+  <li>Go back to the osTicket installation file folder.</li>  
+  <li>Navigate to HeidiSQL and install.</li> 
+  <li>Go back to the osTicket installation file folder.</li>  
+  <li>Navigate to HeidiSQL and install.</li>
+  <li>Now I will make a connection to the database for osTicket in HeidiSQL.</li> 
+  <li>Click new user and password is root. Click open.</li><br> 
 <img width="1393" height="917" alt="VM 47" src="https://github.com/user-attachments/assets/ac057557-df77-4dd6-81b4-eb0b05e77324" />
-</p>
-
-<p>
-   Go back to the osTicket installation file folder > Navigate to HeidiSQL and install 
 <img width="1198" height="846" alt="VM 48" src="https://github.com/user-attachments/assets/54379fdb-b084-40ca-b49e-55847d7f26b6" />
-
-</p>
-
-<p>
-  Now I will make a connection to the database for osTicket in HeidiSQL. 
-  Click new user and password is root. Click open.
 <img width="736" height="498" alt="VM 49" src="https://github.com/user-attachments/assets/fa9f4a84-3543-4e20-972b-5641eb611945" />
 <img width="955" height="612" alt="VM 50" src="https://github.com/user-attachments/assets/5748cdda-bd5b-457c-9bb6-6964d2a6e3bf" />
 </p>
 
+
+
 <p>
-  Create database called osTicket. Right click on unnamed > create new > Database> Name it osTicket.
-  You will now see osTicket in the database list. Now go back to the osTicket browser.
+<b>Create database called osTicket.</b>  
+<li>Right click on unnamed > create new > Database> Name it osTicket.</li> 
+<li>You will now see osTicket in the database list. Now go back to the osTicket browser.</li> 
+<li>Continue Setting up osTicket in the browser.</li> 
+<li>MySQL Database: osTicket.</li> 
+<li>MySQL Username: root.</li> 
+<li>MySQL Password: root.</li> 
+<li>Click “Install Now!”.</li> 
+<li> Now osTicket should be completely installed.</li><br>  
 <img width="1541" height="877" alt="image" src="https://github.com/user-attachments/assets/8cc289c6-10e5-4839-bc4c-e08696193210" />
-
-</p>
-
-<p>
-  Continue Setting up osTicket in the browser
-MySQL Database: osTicket
-MySQL Username: root
-MySQL Password: root
-Click “Install Now!”
 <img width="1166" height="929" alt="VM 52" src="https://github.com/user-attachments/assets/7e21af9f-e459-4360-9d4c-a37341455d03" />
-
-</p>
-
-<p>
-  Now osTicket should be completely installed.
 <img width="1089" height="763" alt="image" src="https://github.com/user-attachments/assets/79ac39c8-867f-4ca8-a48d-5394b24f704c" />
 
 </p>
 
 <p>
-  Check to see if it is working login using the user name and paasword. Once logged in osTicket is working.
+  <b>Check to see if it is working login using the user name and paasword.</b>  
+  <li>Once logged in osTicket is working.</li>  
 <img width="1047" height="442" alt="VM 55" src="https://github.com/user-attachments/assets/901efd34-2e39-4dbf-9337-fcd8e7916a8d" />
 </p>
 
