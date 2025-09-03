@@ -283,7 +283,7 @@ Login to Azure an create a new virtual machine.
 </p>
 
 <p>
-  <b>Check to see if it is working login using the user name and paasword.</b>  
+  <b>Check to see if it is working login using the user name and password.</b>  
   <li>Once logged in osTicket is working.</li>  
 <img width="1047" height="442" alt="VM 55" src="https://github.com/user-attachments/assets/901efd34-2e39-4dbf-9337-fcd8e7916a8d" />
 </p>
