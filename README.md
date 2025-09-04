@@ -3,7 +3,7 @@
 </p>
 
 <h1>Enhancing IT Support with OS Ticket: Deployment and Lifecycle Management</h1>
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br>
 
 <h2>Environments and Technologies Used</h2>
 
@@ -29,7 +29,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
   <ul>
   <li>Step 1: Go to the Azure Website https://azure.microsoft.com</li>
   <li>Step 2: Click Start free</li>
-  <li> Step 3: Sign in / Create a Microsoft Account</li>
+  <li>Step 3: Sign in / Create a Microsoft Account</li>
   <li>Step 4: Verify Your Identity</li>
   <li>Step 5: Accept Terms & Conditions</li>
   <li>Step 6: Start Using Azure</li>
@@ -44,7 +44,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 </p>
 <p>
-Login to Azure an create a new virtual machine.
+ <b>Login to Azure an create a new virtual machine.</b> 
    <b>Creating a Virtual machine.</b>  
   <li>Click + Create → Azure virtual machine.</li>
 <li>Fill in the Basics tab:</li>
@@ -73,11 +73,11 @@ Login to Azure an create a new virtual machine.
 
 
 <p>
- <b>Next login to the virtual machine and locate and copy the IP address.</b> 
-<li>Copy the IP address and open remote desktop</li>
-  <li>In the computer field paste the public IP address of the virtual machine.</li> 
+ <b>Next, log in to the virtual machine, then locate and copy its IP address.</b> 
+<li>Copy the IP address and open the remote desktop.</li>
+  <li>In the computer field, paste the public IP address of the virtual machine.</li> 
     <li>Next, navigate to the Show options button and click to open for more options.</li>
-  <li>You should now see more options. In the user name field type your user name and click connect.</li>
+  <li>You should now see more options. In the user name field, type your user name and click Connect.</li>
   <li>Then enter your password and click ok.</li><br>
 <img width="1608" height="961" alt="VM 5" src="https://github.com/user-attachments/assets/0f22e591-1c55-44c8-a58f-dd0825ff596e" />
 <img width="1892" height="609" alt="image" src="https://github.com/user-attachments/assets/9b905913-5271-4b72-aaa0-e0a9641a3f00" />
@@ -88,28 +88,28 @@ Login to Azure an create a new virtual machine.
   
 
  <p>
-    <b>Now you should be logged on to the new virtual machine.</b> 
-   <li>Open the browser in virtual machine and paste the link for osTicket folder hit enter.</li><br> 
+    <b>You should now be logged in to the new virtual machine.</b> 
+   <li>Open the browser in the virtual machine and paste the link for the osTicket folder, then hit enter.</li><br> 
 <img width="1904" height="1039" alt="VM 11" src="https://github.com/user-attachments/assets/3fb742aa-bb40-42be-8bbe-e87d23b5e0f8" />
 <img width="1291" height="754" alt="VM 13" src="https://github.com/user-attachments/assets/82933f4e-b0ff-497b-ade9-cc02645b9f5b" />
 </p><br />
 
 
 <p>
-   <b>When the folder is downloaded go to your downloads folder.</b>  
-<li>Drag folder to desktop of virtual machine.</li>
-    <li>Right click extract all make sure it is being extracted to the desktop.</li> 
-    <li>After extracting all to desktop IIS needs to be installed in windows with CGI.</li><br>
+   <b>Once the folder has finished downloading, open your Downloads folder.</b>  
+<li>Drag the folder to the desktop of the virtual machine.</li>
+    <li>Right-click the file, select Extract All, and ensure it is being extracted to the desktop.</li> 
+    <li>After extracting all files to the desktop, install IIS on Windows and ensure the CGI feature is enabled.</li><br>
 <img width="1909" height="1005" alt="VM 14" src="https://github.com/user-attachments/assets/4ea60cb6-1a31-41ce-940d-f2dcd90bfaa5" />
 <img width="1914" height="1032" alt="VM 15" src="https://github.com/user-attachments/assets/8f26a705-0a1b-4837-bb44-c3ceeda95554" />
 </p><br />
   <p>
- <b>Now I will enable IIS in windows.</b>  
+ <b>Now I will enable IIS in Windows.</b>  
     <li>Go to start</li>  
     <li>Control panel</li>  
     <li>Programs and Features</li>  
-    <li>Turn windows features on or off then click on it.</li>
-    <li>Now, select Internet Information Services in the drop down.</li> 
+    <li>Turn Windows features on or off, then click on it.</li>
+    <li>Now, select Internet Information Services in the drop-down.</li> 
     <li>Check this box then expand it.</li> 
     <li>Next, CGI will be installed.</li> 
 <li>Go to worldwide web services > Application Development Features > Check the CGI box.</li> 
@@ -121,13 +121,13 @@ Login to Azure an create a new virtual machine.
   <p>
 <b>Next, I will install PHP Manager for IIS from the osTicket-installation - File folder.</b>  
 <li>Go to the osTicket installation file.</li> 
-<li>Locate PHP manager and install.</li>
-<li>After this is installed go back to the os Ticket folder on desktop.</li> 
-<li>Locate the Rewrite Module and install.</li>
+<li>Locate the PHP manager and install it.</li>
+<li>After the installation is complete, go back to the osTicket folder on the desktop.</li> 
+<li>Locate the Rewrite Module and install it.</li>
 <li>Now, I will create a directory on the C drive called PHP.</li>
-<li>Open a new file explorer click on the C.Drive right click > New Folder> Name this file PHP.</li>
-<li>Next, go back to the osTicket file and select the zipped file> then right click and extract all.</li> 
-<li>Browse to C drive locate PHP folder extract all then close.</li><br>
+<li>Open a new file explorer, click on the C.Drive, right click > New Folder> Name this folder PHP.</li>
+<li>Next, go back to the osTicket file and select the zipped file> then right-click and extract all.</li> 
+<li>Browse to the C: drive, locate the PHP folder, extract all files, and then close the window.</li><br>
 <img width="1804" height="1022" alt="VM 19" src="https://github.com/user-attachments/assets/31fe09ce-4a4b-455e-bdff-41c74f20d129" />
 <img width="1128" height="638" alt="VM 20" src="https://github.com/user-attachments/assets/dabeed48-f264-4258-9f49-66bdccaa9fac" />
 <img width="1162" height="655" alt="VM 22" src="https://github.com/user-attachments/assets/47a21b90-88db-4cda-b1eb-fbb97964f40f" />
@@ -137,15 +137,15 @@ Login to Azure an create a new virtual machine.
 
 <p>
   <b>Go back to the osTicket file.</b>  
-  <li>Now I will be installing VC redist.</li><br> 
+  <li>Now, I will be installing VC redist.</li><br> 
 <img width="1140" height="648" alt="VM 25" src="https://github.com/user-attachments/assets/a83e028d-9fdf-434a-b5ac-9e2f02995dec" />
 </p>
 
 <p>
     <b>Now, I will install MySQL.</b>   
-  <li>Select Standard > Root password will be root for example after installation hit finish.</li> 
-    <li>Make sure to select the standard configuration the click next.</li> 
-  <li>At MySQL Server Instance Configuration window create an input your password for both fields then next.</li><br> 
+  <li>Select Standard > Root password will be root. For example, after installation, hit finish.</li> 
+    <li>Make sure to select the standard configuration, then click Next.</li> 
+  <li>At the MySQL Server Instance Configuration window, create an input for your password for both fields, then Next.</li><br> 
 <img width="1135" height="644" alt="VM 26" src="https://github.com/user-attachments/assets/00d58f1b-ee45-4d19-bfda-8b9b6d60e0f0" />
   <img width="507" height="392" alt="VM 28" src="https://github.com/user-attachments/assets/74e5298b-cbd9-42f3-8b25-35a1874350a9" />
   <img width="747" height="573" alt="VM 27" src="https://github.com/user-attachments/assets/6895a7bc-314e-436b-98f9-c3bd00cd43b7" />
@@ -155,13 +155,13 @@ Login to Azure an create a new virtual machine.
      <b>Next, I will configure PHP</b> 
     <li>Go to the start menu</li>  
     <li>Open IIS as admin</li> 
-    <li>Now open the PHP manager by double clicking the icon</li>   
-    <li>Navigate to register new PHP version click on this.</li> 
-    <li>At the register new PHP version pop up screen locate browser button with the three dots.</li>  
+    <li>Now open the PHP manager by double-clicking the icon.</li>   
+    <li>Navigate to Register New PHP Version and click it.</li> 
+    <li>In the Register New PHP Version pop-up window, locate the Browse button (represented by three dots).</li>  
     <li>Go to the Cdrive when you PHP file is located.</li>  
     <li>Open the file locate the php-cgi.</li>  
     <li>Icon double click to install.</li>  
-    <li>This will take you back to the register new PHP version window.</li>  
+    <li>This will return you to the Register New PHP Version window.</li>  
     <li>click ok.</li><br>  
 <img width="1218" height="853" alt="VM 29" src="https://github.com/user-attachments/assets/0eb94e5b-70cf-42ec-91e7-bb9c67245a9f" />
 <img width="1455" height="781" alt="VM 30" src="https://github.com/user-attachments/assets/1edfa096-5661-46bc-afba-a099a1eca9a3" />
@@ -173,7 +173,7 @@ Login to Azure an create a new virtual machine.
 
 
 <p>
-    <b>PHP should be registered at this point your screen should look like the following slide.</b> 
+    <b>PHP should be registered at this point. Your screen should look like the following slide.</b> 
      <li>Now I will reload IIS stop start the server.</li><br>
 <img width="1435" height="764" alt="VM 35" src="https://github.com/user-attachments/assets/d67ae88f-50dd-4a90-929b-111aeeb9d40d" />
 <img width="1437" height="766" alt="image" src="https://github.com/user-attachments/assets/6f05ad29-5904-44d0-8df4-deab7dcac403" />
@@ -189,7 +189,7 @@ Login to Azure an create a new virtual machine.
      <li>Next, I will open file explorer navigate to the C.drive > inetpub folder > wwwroot folder</li>  
      <li>Copy upload folder to wwwroot folder.</li>
      <li>Rename upload folder to osTicket.</li> 
-     <li>Then restart/Reload the server again.</li><br> 
+     <li>Then restart/reload the server again.</li><br> 
 <img width="1704" height="802" alt="VM 37png" src="https://github.com/user-attachments/assets/415921b5-0dc2-4727-9345-129d8c81cd43" />  
 <img width="1693" height="795" alt="VM 38" src="https://github.com/user-attachments/assets/e360b81e-0b4e-41c5-bd47-be722ce0b804" />
 <img width="1475" height="821" alt="VM 39" src="https://github.com/user-attachments/assets/ae889772-c91a-455c-976d-4a077bb345c8" />
@@ -205,12 +205,12 @@ Login to Azure an create a new virtual machine.
   <li>Go to Browser folder</li>  
   <li>Click on the Browse*:80 (http).</li>  
   <li>The osTicket website should pop up.</li>  
-  <li>You will notice some of the features are not enabled.</li><br> 
+  <li>Some features will appear as disabled.</li><br> 
 <img width="1838" height="1008" alt="VM 40" src="https://github.com/user-attachments/assets/46c69e35-bef9-41ac-9cf7-9dbb6400806f" />
 </p>
 
 <p>
-  <b>To enable go back to IIS Manager.</b>
+  <b>To enable, go back to IIS Manager.</b>
    <li>Go to sites</li>    
    <li>Default Website</li>   
    <li>osTicket folder</li>   
@@ -219,7 +219,7 @@ Login to Azure an create a new virtual machine.
      <li>Enable the following - Enable: php_imap.dll</li>  
      <li>Enable: php_intl.dll</li>  
      <li>Enable: php_opcache.dll</li> 
-     <li>After enabling the following refresh the osTicket browser.</li>  
+     <li>After enabling the following, refresh the osTicket browser.</li>  
      <li>Now PHP IMAP Extension</li><br>  
      <li>Required for mail fetching and Intl Extension — recommended for improved localization is now enabled.</li><br> 
 <img width="910" height="1036" alt="VM 41" src="https://github.com/user-attachments/assets/b07f9736-d5d8-47d2-b6a4-e4af16e96313" />
@@ -230,14 +230,14 @@ Login to Azure an create a new virtual machine.
 <p>
     <b>Next, I will rename ost-config.php.</b> 
   <li>Go osTicket file</li>  
-  <li>Open file explorer navigate to the C.drive.</li> 
+  <li>Open File Explorer and navigate to the C: drive./li> 
   <li>inetpub folder > wwwroot > osTicket > include.</li> 
   <li>Scroll down to ost-sampleconfig.php file and rename it to ost-config.php</li> 
   <li>From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php</li> 
   <li>To: C:\inetpub\wwwroot\osTicket\include\ost-config.php</li> 
   <li>Next, right click > Properties > security > Advanced > Disable inheritance > remove permissions.</li>  
   <li>Now add new permissions > Select principle > type everyone then click ok> check full control box> click ok</li> 
-  <li>Advance Security window setting should say principal should say everyone Access full control.</li>  
+  <li>In the Advanced Security Settings window, set the principal to Everyone and grant full control access.</li>  
   <li>click apply and ok</li>  
   <li>ok to properties</li><br>   
 <img width="1466" height="941" alt="VM 45" src="https://github.com/user-attachments/assets/4c2c4e6c-a67b-4e37-939d-d19445c12cc0" />
@@ -246,7 +246,7 @@ Login to Azure an create a new virtual machine.
 
 <p>
   <b>Now go back to the osTicket website and click continue.</b> 
-  <li>Fill in the appropriate fields. Before clicking the install Now create a database connection.</li> 
+  <li>"First, fill in the fields and set up your database connection. Then, click Install Now."</li> 
   <li>Go back to the osTicket installation file folder.</li>  
   <li>Navigate to HeidiSQL and install.</li> 
   <li>Go back to the osTicket installation file folder.</li>  
@@ -262,15 +262,15 @@ Login to Azure an create a new virtual machine.
 
 
 <p>
-<b>Create database called osTicket.</b>  
-<li>Right click on unnamed > create new > Database> Name it osTicket.</li> 
+<b>Create a database called osTicket.</b>  
+<li>Right-click on 'Unnamed'> Create New> Database > Name it osTicket.</li> 
 <li>You will now see osTicket in the database list. Now go back to the osTicket browser.</li> 
-<li>Continue Setting up osTicket in the browser.</li> 
+<li>Continue setting up osTicket in the browser.</li> 
 <li>MySQL Database: osTicket.</li> 
 <li>MySQL Username: root.</li> 
 <li>MySQL Password: root.</li> 
 <li>Click “Install Now!”.</li> 
-<li> Now osTicket should be completely installed.</li><br>  
+<li> Now, osTicket should be completely installed.</li><br>  
 <img width="1541" height="877" alt="image" src="https://github.com/user-attachments/assets/8cc289c6-10e5-4839-bc4c-e08696193210" />
 <img width="1166" height="929" alt="VM 52" src="https://github.com/user-attachments/assets/7e21af9f-e459-4360-9d4c-a37341455d03" />
 <img width="1089" height="763" alt="image" src="https://github.com/user-attachments/assets/79ac39c8-867f-4ca8-a48d-5394b24f704c" />
@@ -278,8 +278,8 @@ Login to Azure an create a new virtual machine.
 </p>
 
 <p>
-  <b>Check to see if it is working login using the user name and password.</b>  
-  <li>Once logged in osTicket is working.</li>  
+  <b>Check to see if it is working by logging in using the username and password.</b>  
+  <li>Once logged in, osTicket is working.</li>  
 <img width="1047" height="442" alt="VM 55" src="https://github.com/user-attachments/assets/901efd34-2e39-4dbf-9337-fcd8e7916a8d" />
 </p>
 
